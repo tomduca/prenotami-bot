@@ -89,7 +89,7 @@ class PrenotamiBot:
             sys.exit(1)
 
         try:
-            self.driver.get('https://prenotami.esteri.it/Services/Booking/287')
+            self.driver.get('https://prenotami.esteri.it/Services/Booking/791')
             time.sleep(5)
             try:
                 appts_available = self.driver.find_element(By.XPATH,
