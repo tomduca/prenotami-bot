@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  prenotami-bot:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    
+
+
+  selenium-chrome:
+    image: selenium/standalone-chrome:latest
+    ports:
+      - "4444:4444"
